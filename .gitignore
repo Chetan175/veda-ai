@@ -1,0 +1,13 @@
+node_modules
+.next
+dist
+.env
+.env.local
+.DS_Store
+*.log
+server/uploads
+web/.next
+server/dist
+coverage
+pnpm-lock.yaml
+package-lock.json
