@@ -10,4 +10,3 @@ web/.next
 server/dist
 coverage
 pnpm-lock.yaml
-package-lock.json
