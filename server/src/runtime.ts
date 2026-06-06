@@ -7,8 +7,8 @@ import type {
   AssignmentQueuePayload,
   AssignmentRecord,
   CreateAssignmentRequest
-} from '@shared/assignment';
-import { buildAssessmentPreview } from '@shared/paper-builder';
+} from 'web/shared/assignment.js';
+import { buildAssessmentPreview } from 'web/shared/paper-builder.js';
 import { config } from './config.js';
 import { createAssignmentRepository, type AssignmentRepository } from './storage/assignmentRepository.js';
 import { createAssignmentStateCache, type AssignmentStateCache } from './storage/cacheStore.js';

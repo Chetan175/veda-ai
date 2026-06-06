@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import type { AssignmentRecord, CreateAssignmentRequest } from '@shared/assignment';
-import { questionTypeCatalog } from '@shared/assignment';
+import type { AssignmentRecord, CreateAssignmentRequest } from '@/shared/assignment';
+import { questionTypeCatalog } from '@/shared/assignment';
 
 export type DraftQuestionType = {
   id: string;

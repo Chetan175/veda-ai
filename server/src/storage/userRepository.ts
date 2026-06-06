@@ -1,4 +1,4 @@
-import type { User } from '@shared/user';
+import type { User } from 'web/shared/user.js';
 import { config } from '../config.js';
 
 export interface UserRepository {

@@ -1,8 +1,8 @@
 import { Router, Request, Response } from 'express';
 import bcryptjs from 'bcryptjs';
 import { randomUUID } from 'node:crypto';
-import type { User } from '@shared/user';
-import { registerRequestSchema, loginRequestSchema } from '@shared/user';
+import type { User } from 'web/shared/user.js';
+import { registerRequestSchema, loginRequestSchema } from 'web/shared/user.js';
 import { generateToken } from '../middleware/auth.js';
 import type { UserRepository } from '../storage/userRepository.js';
 

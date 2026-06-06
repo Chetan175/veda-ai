@@ -3,7 +3,7 @@ import { mkdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { once } from 'node:events';
 import PDFDocument from 'pdfkit';
-import type { QuestionPaper, QuestionDifficulty } from '@shared/assignment';
+import type { QuestionPaper, QuestionDifficulty } from 'web/shared/assignment';
 
 type PdfDocument = InstanceType<typeof PDFDocument>;
 

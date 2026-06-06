@@ -1,4 +1,4 @@
-import type { AssignmentRecord, CreateAssignmentRequest, QuestionPaper } from '@shared/assignment';
+import type { AssignmentRecord, CreateAssignmentRequest, QuestionPaper } from '@/shared/assignment';
 import { withRetry, shouldRetryHttpError } from './retry';
 
 const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000';

@@ -3,9 +3,9 @@ import multer from 'multer';
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Server as SocketIOServer } from 'socket.io';
-import type { AssignmentRecord } from '@shared/assignment';
-import { createAssignmentRequestSchema } from '@shared/assignment';
-import { buildAssessmentPreview } from '@shared/paper-builder';
+import type { AssignmentRecord } from 'web/shared/assignment.js';
+import { createAssignmentRequestSchema } from 'web/shared/assignment.js';
+import { buildAssessmentPreview } from 'web/shared/paper-builder.js';
 import type { AssignmentRuntime } from '../runtime.js';
 import { extractSourceText } from '../services/fileText.js';
 

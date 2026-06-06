@@ -16,7 +16,7 @@ import {
   Users,
   Plus
 } from 'lucide-react';
-import { demoProfile, mobileNavItems } from '@shared/profile';
+import { demoProfile, mobileNavItems } from '@/shared/profile';
 import React from 'react';
 
 type DashboardShellProps = {

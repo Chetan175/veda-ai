@@ -1,6 +1,6 @@
-import type { CreateAssignmentRequest, QuestionPaper } from '@shared/assignment';
-import { buildPrompt, buildStructuredAssessment } from '@shared/paper-builder';
-import { questionPaperSchema } from '@shared/assignment';
+import type { CreateAssignmentRequest, QuestionPaper } from 'web/shared/assignment.js';
+import { buildPrompt, buildStructuredAssessment } from 'web/shared/paper-builder.js';
+import { questionPaperSchema } from 'web/shared/assignment.js';
 import { config } from '../config.js';
 import { withServerRetry, shouldRetryError } from '../utils/retry.js';
 

@@ -12,7 +12,7 @@ import {
   Sparkles,
   X
 } from 'lucide-react';
-import { createAssignmentRequestSchema, questionTypeCatalog } from '@shared/assignment';
+import { createAssignmentRequestSchema, questionTypeCatalog } from '@/shared/assignment';
 import { createAssignment } from '@/lib/api';
 import { buildDraftPayload, useAssignmentStore } from '@/lib/store';
 

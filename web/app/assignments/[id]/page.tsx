@@ -5,7 +5,7 @@ import { Download, Sparkles, RefreshCw } from 'lucide-react';
 import { DashboardShell } from '@/components/DashboardShell';
 import { PaperDocument } from '@/components/PaperDocument';
 import { getAssignment, getPdfUrl, regenerateAssignment } from '@/lib/api';
-import type { AssignmentRecord } from '@shared/assignment';
+import type { AssignmentRecord } from '@/shared/assignment';
 import { useParams } from 'next/navigation';
 
 function LoadingPaper() {

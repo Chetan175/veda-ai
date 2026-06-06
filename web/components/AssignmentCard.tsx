@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { MoreVertical } from 'lucide-react';
-import type { AssignmentRecord } from '@shared/assignment';
+import type { AssignmentRecord } from '@/shared/assignment';
 import { useRouter } from 'next/navigation';
 
 type AssignmentCardProps = {

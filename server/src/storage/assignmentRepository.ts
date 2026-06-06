@@ -1,5 +1,5 @@
 import mongoose, { Schema, type Model } from 'mongoose';
-import type { AssignmentRecord } from '@shared/assignment';
+import type { AssignmentRecord } from 'web/shared/assignment.js';
 import { config } from '../config.js';
 
 export interface AssignmentRepository {

@@ -1,6 +1,6 @@
 'use client';
 
-import type { QuestionPaper, QuestionDifficulty } from '@shared/assignment';
+import type { QuestionPaper, QuestionDifficulty } from '@/shared/assignment';
 
 const difficultyClass: Record<QuestionDifficulty, string> = {
   easy: 'is-easy',

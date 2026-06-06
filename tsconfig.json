@@ -12,9 +12,9 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/*": ["shared/*"]
+      "@shared/*": ["web/shared/*"]
     }
   },
-  "include": ["shared/**/*", "server/**/*", "web/**/*", "scripts/**/*"],
+  "include": ["web/shared/**/*", "server/**/*", "web/**/*", "scripts/**/*"],
   "exclude": ["node_modules", ".next", "dist"]
 }
